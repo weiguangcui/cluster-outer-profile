@@ -1,0 +1,5 @@
+# Git LFS tracking for astronomy data products
+*.fits filter=lfs diff=lfs merge=lfs -text
+*.fits.gz filter=lfs diff=lfs merge=lfs -text
+*.h5 filter=lfs diff=lfs merge=lfs -text
+*.hdf5 filter=lfs diff=lfs merge=lfs -text

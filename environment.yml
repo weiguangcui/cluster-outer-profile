@@ -1,0 +1,35 @@
+name: cluster-outer-profile
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - scipy
+  - astropy
+  - matplotlib
+  - pandas
+  - jupyter
+  - notebook
+  - ipykernel
+  - scikit-learn
+  - astroquery
+  - regions
+  - photutils
+  - reproject
+  - mpi4py
+  - h5py
+  - dask
+  - dask-jobqueue
+  - pytest
+  - pytest-cov
+  - black
+  - flake8
+  - jupyterlab
+  - pip
+  - pip:
+    - astro-sedpy
+    - corner
+    - emcee
+    - pyyaml
+    - tqdm
