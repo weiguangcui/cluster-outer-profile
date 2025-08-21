@@ -1,33 +1,32 @@
 # Data Directory
 
-This folder contains data used in the Galaxy Cluster Outer Regions project.
+This folder contains catalogues used in the Galaxy Cluster Outer Regions project. Note, it is not possible to upload all the raw data to GitHub. We only provide the catalogues here and give a link to the raw images.
 
-- `raw/`: Original, unmodified datasets (optical, X-ray, SZ)
-- `processed/`: Data products derived from processing/analysis
-- `external/`: Reference datasets from literature or simulations
+- `DESI/`: DESI galaxy cluster catalogues
+- `ACT/`: ACT catalogues
+- `eROSITA/`: eROSITA catalogues
 
 Large files should not be committed directly unless tracked with Git LFS.
 
-## Access and Storage
-- Primary storage: [describe institutional path or bucket]
-- Backup location: [describe backup]
-- Retrieval instructions: [e.g., command lines, credentials handling]
-
 ## Dataset Catalog
-Provide a short entry for each dataset:
+Please also provide a short entry for each dataset within each catalogues directory.
 
 ```
-- Name: Planck y-map (PR3)
-  Location: data/external/planck_pr3/
-  Source: https://pla.esac.esa.int
-  Version: PR3
-  Notes: used for SZ profiles
+- Name: DESI galaxy cluster catalogues
+  Location: data/DESI/
+  Source: DESI
+  Version: DESI Image Legacy Surveys DR9
+  Notes: https://gax.sjtu.edu.cn/data/DESI.html
 
-- Name: Chandra ObsID 12345 (Cluster XYZ)
-  Location: data/raw/xray/chandra/ObsID_12345/
-  Source: HEASARC
-  Notes: see docs/processing_log.md for reduction details
+- Name: ACT catalogues
+  Location: data/ACT/
+  Source: ACT
+  Version: DR6
+  Notes: https://actweb.aoc.nrao.edu/
+
+- Name: eROSITA catalogues
+  Location: data/eROSITA/
+  Source: eROSITA
+  Version: ERASS-1
+  Notes: https://www.mpe.mpg.de/ROSITA/ERASS-1/
 ```
-
-## Checksums
-Include checksums for critical files in a `CHECKSUMS.txt` (e.g., sha256) to verify integrity.
