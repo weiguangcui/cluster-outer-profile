@@ -8,7 +8,7 @@ A collaborative research project analyzing multi-wavelength observations (optica
 
 ### tasks:
 
-- [ ] catalogues matching and selection
+- [x] catalogues matching and selection
 - [ ] understanding and setting the centres
 - [ ] understanding and setting the scale radii 
 - [ ] outside object removing/fitting 2 halo term 
